@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Crucial Nairobi Tour Guide</string>
+    <string name="nairobi_image">Nairobi Image</string>
+    <string name="kenya">Kenya</string>
+    <string name="nairobi">Nairobi</string>
+    <string name="the_city_reaching_for_the_skies">The city reaching for the skies</string>
+    <string name="welcome_to_nairobi">Welcome to Nairobi</string>
+    <string name="welcome_message">East Africa\'s most cosmopolitan city, Nairobi is Kenyas beating heart, an exciting, maddening concrete jungle that jarringly counterpoints the untrammelled natural beauty to be found elsewhere in the country</string>
+    <string name="home">home</string>
+    <string name="about">about</string>
 </resources>
