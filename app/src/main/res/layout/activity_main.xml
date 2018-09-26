@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:src="@drawable/nairobi"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:textSize="32sp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/kenya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kenya"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+            android:textAllCaps="true"
+            android:textSize="82sp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/nairobi"
+            android:layout_below="@id/kenya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nairobi"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/nairobi"
+            android:id="@+id/reaching"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The city reaching for the skies "/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Nairobi"/>
+
+</LinearLayout>
