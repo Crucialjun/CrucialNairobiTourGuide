@@ -1,121 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <RelativeLayout
-        android:id="@+id/mainPhoto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+    <android.support.v4.view.ViewPager
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/viewPager">
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="280dp"
-            android:contentDescription="@string/nairobi_image"
-            android:scaleType="centerCrop"
-            android:src="@drawable/nairobi" />
+    </android.support.v4.view.ViewPager>
+</LinearLayout>
 
-        <TextView
-            android:id="@+id/kenya"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:text="@string/kenya"
-            android:textColor="@android:color/white"
-            android:textSize="32sp" />
-
-        <TextView
-            android:id="@+id/nairobi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/kenya"
-            android:layout_centerHorizontal="true"
-            android:text="@string/nairobi"
-            android:textAllCaps="true"
-            android:textColor="@android:color/white"
-            android:textSize="82sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/nairobi"
-            android:layout_centerHorizontal="true"
-            android:text="@string/the_city_reaching_for_the_skies"
-            android:textColor="@android:color/white"
-            android:textSize="24sp" />
-
-
-    </RelativeLayout>
-
-    <TextView
-        android:id="@+id/welcome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/mainPhoto"
-        android:layout_centerHorizontal="true"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/welcome_to_nairobi"
-        android:textAllCaps="true"
-        android:textSize="24sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/welcome"
-        android:layout_centerHorizontal="true"
-        android:layout_gravity="center_horizontal"
-        android:gravity="center"
-        android:text="@string/welcome_message"
-        android:textSize="18sp"
-        android:textStyle="italic" />
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:weightSum="5">
-
-        <Button
-            style="?android:attr/borderlessButtonStyle"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/home" />
-
-        <Button
-            style="?android:attr/borderlessButtonStyle"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/about" />
-
-        <Button
-            style="?android:attr/borderlessButtonStyle"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/about" />
-
-        <Button
-            style="?android:attr/borderlessButtonStyle"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/about" />
-
-        <Button
-            style="?android:attr/borderlessButtonStyle"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/about" />
-
-
-    </LinearLayout>
-
-</RelativeLayout>
